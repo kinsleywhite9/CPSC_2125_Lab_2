@@ -1,16 +1,93 @@
 body{ 
-  background-color: silver;
+  background-color: white;
 }
-h1{
-  color: gold;
+h3{
+  color:midnightblue;
   text-align: center;
 }
-h2{
-  color: blue;
+h3.a{
+  color: black;
+  text-align: center;
+}
+p.a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px
 }
 p{
   font-family: Times 'Times New Roman', Times, serif;
-  font-size: 30px;
-
+  font-size: 20px;
+}
+.header{
+  grid-area: header;
+  background-color: silver;
+}
+.nav{
+  grid-area: nav;
+  background-color: silver;
+}
+.main{
+  grid-area: main;
+  background-color: silver;
+}
+.footer{
+  grid-area: footer;
+  background-color: silver;
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 7px;
+  grid-template-areas: 
+  "header header"
+  "nav main"
+  "footer footer";
+}
+ul.a{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+a:hover{
+  background-color: beige;
+}  
+ul.b{
+  list-style-type: none;
+  margin: 0;
   
+}
+li.c{
+  background-color: rgb(255, 128, 128);
+}
+li.d{
+  background-color: rgb(255, 255, 128)
+}
+li.e{
+  background-color: rgb(128, 255, 170)
+}
+
+section.a{
+  float: left;
+  background-color: floralwhite;
+  margin:15px;
+  padding: 10px;
+  border:5px;
+}
+section.b{
+  float: right;
+  background-color: floralwhite;
+  margin: 15px;
+  padding: 10px;
+  border:5px;
+}
+h1{
+  text-decoration: underline;
+}
+h3.c{
+  color: black;
+  text-align: left;
+}
+p.b{
+  font-style: italic;
+  font-size: 15px;
+  text-align: center;
 }
