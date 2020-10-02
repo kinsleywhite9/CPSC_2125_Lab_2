@@ -15,7 +15,7 @@ p.a{
 }
 p{
   font-family: Times 'Times New Roman', Times, serif;
-  font-size: 20px;
+  font-size: 10px;
 }
 .header{
   grid-area: header;
